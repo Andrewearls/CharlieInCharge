@@ -1,0 +1,23 @@
+{
+    "name": "charlie-in-charge/taking-charge",
+    "description": "The Default Laravel Heroku preset",
+    "keywords": ["Laravel","Laravel preset", "Heroku", "Charlie", "Charlie in charge", "Andrew Earls"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Earls",
+            "email": "andrew.e.earls@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "CharlieInCharge\\TakingCharge": "src/"
+        }
+    },
+    "extras": {
+        "laravel":{
+            "providers": ["CharlieInCharge\\TakingCharge\\CharlieServeiceProvider"]
+        }
+    }
+}
