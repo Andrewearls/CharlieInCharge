@@ -2,7 +2,7 @@
 
 namespace CharlieInCharge\TakingCharge;
 
-use CharlieInCharge\Preset;
+use CharlieInCharge\TakingCharge\Preset;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Foundation\Console\PresetCommand;
 
