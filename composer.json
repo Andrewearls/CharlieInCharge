@@ -15,7 +15,7 @@
             "CharlieInCharge\\TakingCharge\\": "src/"
         }
     },
-    "extras": {
+    "extra": {
         "laravel":{
             "providers": ["CharlieInCharge\\TakingCharge\\CharlieServeiceProvider"]
         }
