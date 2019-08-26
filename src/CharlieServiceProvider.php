@@ -25,7 +25,7 @@ class CharlieServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        PresetCommand::macro('CharlieInCharge', function($command){
+        PresetCommand::macro('charlie', function($command){
             Preset::install();
         });
     }

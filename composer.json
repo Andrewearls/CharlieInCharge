@@ -17,7 +17,7 @@
     },
     "extra": {
         "laravel":{
-            "providers": ["CharlieInCharge\\TakingCharge\\CharlieServeiceProvider"]
+            "providers": ["CharlieInCharge\\TakingCharge\\CharlieServiceProvider"]
         }
     }
 }
