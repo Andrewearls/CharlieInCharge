@@ -27,6 +27,8 @@ class CharlieServiceProvider extends ServiceProvider
     {
         PresetCommand::macro('charlie', function($command){
             Preset::install();
+
+            $command->info('Charlie was successful!');
         });
     }
 }
